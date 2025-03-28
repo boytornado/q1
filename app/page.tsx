@@ -1,21 +1,8 @@
-// app/layout.tsx
-import React from 'react';
-
-const Layout = ({ children }: { children: React.ReactNode }) => {
+export default function HomePage() {
   return (
-    <div>
-      <header>
-        <h1>My Layout</h1>
-        {/* แสดง Header หรือ Menu ต่างๆ */}
-      </header>
-
-      <main>{children}</main>
-
-      <footer>
-        <p>Footer Content</p>
-      </footer>
-    </div>
+    <main>
+      <h1>Q1 Admin Dashboard</h1>
+      <p>ระบบพร้อมใช้งาน</p>
+    </main>
   );
-};
-
-export default Layout;
+}
