@@ -1,7 +1,7 @@
 // app/admin/layout.tsx
 
 import Link from "next/link";
-import "@/app/globals.css";
+import "../../globals.css";
 
 export default function AdminLayout({ children }: { children: React.ReactNode }) {
   return (
